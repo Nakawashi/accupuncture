@@ -1,0 +1,164 @@
+/*
+ * Lucie Genevey
+ * 03.03.2016 
+ * general CSS for every pages
+ *
+ */
+
+/* 
+ * GENERAL
+ *
+ */
+
+html, body {
+	font-family: sans-serif;
+    font-size: 16px;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40PX;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+li a {
+    text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #DF4653;
+    background-color: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.btn:hover {
+    color: #DF4653;
+}
+
+li {
+    list-style: none;
+	font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+/* 
+ * HEADER
+ *
+ */
+ 
+.header {
+    position: static;
+    left: 0;
+    right: 0;
+    height: 220px;
+
+    line-height: 90px;
+    color: #FFFFFF;
+    background-color: #1D1D1B;
+}
+
+.div-header-title {
+    text-align: center;
+}
+
+.header-picture {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header-title1 {
+    
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.hr-header-subtitle {
+    border-top: 1px solid;
+    border-color: #DF4653;
+    max-width: auto;
+}
+
+.header-title2 {
+    
+    text-align: center;
+    color: #fff;
+}
+
+/*
+ * NAVIGATION
+ *
+ */
+
+.menu {
+    text-align: center;
+	margin-top: -15px
+}
+
+.menu-inline {
+    display: inline;
+    cursor: pointer;
+}
+
+.menu a {
+    padding: 10px 10px 10px 10px;
+	font-weight: 100;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    right: 0;
+	bottom: 0;
+    height: 165px;
+
+    line-height: 50px;
+    color: #FFFFFF;
+    background-color: #1D1D1B;
+}
+
+/*
+ * CONTENU
+ *
+ */
+
+.img-position-top {
+    margin-top: 60px;
+}
+
+.img-position-bot {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.h2-position {
+    margin-top: 60px;
+    margin-bottom: 20px;    
+}
+
+.btn-form {
+    margin-top: 30px;
+}
+
+.footer-away {
+    margin-bottom: 100px;
+}
+
+
+
