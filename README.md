@@ -1,4 +1,4 @@
 # davidRiemarzik-old
 
-Projet non terminé
+Site statique exercice
 Premier essai sur github :-)
